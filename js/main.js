@@ -3,7 +3,7 @@ function pow(n, x) {
         return n = 1;
     } else if (x == 1) {
         return n = n;
-    } else return n * pow(n, x - 1);
+    } else return n * pow(n, x - 1); // n ** x;
 }
 
 let a = +prompt('Enter number');
